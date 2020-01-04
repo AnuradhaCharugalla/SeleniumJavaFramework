@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class HeadlessChrome {
-
+ // Just note
 	WebDriver driver = null;
 
 
