@@ -12,7 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class UsingAutoIT {
 	static WebDriver driver = null;
 	
-public static void main(String[] args) throws InterruptedException, Exception {
+public static void main(String[] args) throws InterruptedException {
 	test();
 }
 
@@ -40,7 +40,7 @@ public static void main(String[] args) throws InterruptedException, Exception {
 		
 		for (String winHandle : driver.getWindowHandles()) {
 		    driver.switchTo().window(winHandle); // switch focus of WebDriver to the next found window handle (that's your newly opened window)
-		    System.out.println(driver.findElement(By.xpath("//td[contains(text(),'Status')]")).getText());
+		   // System.out.println(driver.findElement(By.xpath("//td[contains(text(),'Status')]")).getText());
 		}
 
 		//code to do something on new window
