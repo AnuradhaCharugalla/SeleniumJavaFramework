@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="TestParameter(failed)">
+    <classes>
+      <class name="parallelBrowser.ParametersTestNG">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- parallelBrowser.ParametersTestNG -->
+    </classes>
+  </test> <!-- TestParameter(failed) -->
+</suite> <!-- Failed suite [Suite] -->

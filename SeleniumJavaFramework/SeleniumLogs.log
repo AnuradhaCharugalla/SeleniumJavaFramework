@@ -1,0 +1,22 @@
+2020-01-04 10:14:16 TRACE Config:207 - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2020-01-04 10:14:16 TRACE Config:214 - Property wdm.chromeDriverVersion not found in /webdrivermanager.properties, using blank value
+2020-01-04 10:14:16 TRACE Config:207 - Property wdm.proxy not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2020-01-04 10:14:16 TRACE Config:214 - Property wdm.proxy not found in /webdrivermanager.properties, using blank value
+2020-01-04 10:14:17 TRACE Config:207 - Property wdm.binaryPath not found in /webdrivermanager.properties, using default values (in /webdrivermanager.properties)
+2020-01-04 10:14:17 TRACE Config:214 - Property wdm.binaryPath not found in /webdrivermanager.properties, using blank value
+2020-01-04 10:14:17 TRACE Shell:55 - Running command on the shell: [wmic, datafile, where, name='C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe', get, Version, /value]
+2020-01-04 10:14:17 TRACE Shell:57 - Result: Version=79.0.3945.88
+2020-01-04 10:14:17 TRACE WebDriverManager:561 - Detected Google Chrome version 79
+2020-01-04 10:14:17 TRACE WebDriverManager:592 - Using preferences true
+2020-01-04 10:14:17 DEBUG Preferences:118 - Preference found chrome79=79.0.3945.36 (valid until 2020-01-04 16:16:22)
+2020-01-04 10:14:17 INFO  WebDriverManager:575 - Using chromedriver 79.0.3945.36 (since Google Chrome 79 is installed in your machine)
+2020-01-04 10:14:17 TRACE WebDriverManager:513 - Managing chromedriver arch=64 version=79.0.3945.36 getLatest=false cache=false
+2020-01-04 10:14:17 TRACE WebDriverManager:817 - Checking if chromedriver exists in cache
+2020-01-04 10:14:17 TRACE Downloader:116 - Target path C:\Users\acharugalla/.m2/repository/webdriver
+2020-01-04 10:14:17 TRACE WebDriverManager:857 - Filter cache by chromedriver -- input list [C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe, C:\Users\acharugalla\.m2\repository\webdriver\geckodriver\win64\0.26.0\geckodriver.exe] -- output list [C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe] 
+2020-01-04 10:14:17 TRACE WebDriverManager:857 - Filter cache by 79.0.3945.36 -- input list [C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe] -- output list [C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe] 
+2020-01-04 10:14:17 TRACE WebDriverManager:857 - Filter cache by win -- input list [C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe] -- output list [C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe] 
+2020-01-04 10:14:17 TRACE WebDriverManager:592 - Using preferences true
+2020-01-04 10:14:17 TRACE WebDriverManager:592 - Using preferences true
+2020-01-04 10:14:17 DEBUG WebDriverManager:530 - Driver chromedriver 79.0.3945.36 found in cache
+2020-01-04 10:14:17 INFO  WebDriverManager:1052 - Exporting webdriver.chrome.driver as C:\Users\acharugalla\.m2\repository\webdriver\chromedriver\win32\79.0.3945.36\chromedriver.exe

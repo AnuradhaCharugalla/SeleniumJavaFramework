@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Testfor groups">
+
+		<groups>
+		<define name="metaGroup">
+		<include name="S.*"></include>		
+		</define>
+			<run>
+				<include name="classGroup"></include>
+			</run>
+		</groups>
+
+		<classes>
+			<class name="parallelBrowser.GropusTest">
+				<methods>
+					<include name=".*1.*"></include>
+				</methods>
+			</class>
+
+		</classes>
+	</test> <!-- Testfor groups -->
+</suite> <!-- Suite -->
