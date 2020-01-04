@@ -46,7 +46,7 @@ public static void main(String[] args) throws InterruptedException {
 		//code to do something on new window
 
 		driver.close();
-		
+	
 		System.out.println("Test End");
 		
 		
