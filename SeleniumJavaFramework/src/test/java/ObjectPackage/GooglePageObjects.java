@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class GooglePageObjects {
 	static WebElement element = null;
-	// Testing Git Commit
 	
 	public static WebElement textBox(WebDriver driver){
 		element = driver.findElement(By.name("q"));
